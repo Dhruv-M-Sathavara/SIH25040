@@ -1,3 +1,6 @@
 #Visualization
 
-![Visualization](./money_manager.png)
+![Visualization](./images)
+![Visualization](./images1)
+![Visualization](./images2)
+![Visualization](./images3)
