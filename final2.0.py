@@ -59,7 +59,7 @@ def load_profiles():
 def init_llm_agent():
     try:
         db = SQLDatabase.from_uri(
-            "postgresql+psycopg2://postgres:123456@localhost:6969/nmdis"
+            "postgresql+psycopg2://postgres:DBPASS@localhost:PORT/nmdis"
         )
 
         llm = ChatOpenAI(
